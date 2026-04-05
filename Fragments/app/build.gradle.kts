@@ -34,9 +34,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    buildFeatures {
-        viewBinding = true
-    }
+    // He quitado viewBinding porque prefieres usar findViewById
 }
 
 dependencies {

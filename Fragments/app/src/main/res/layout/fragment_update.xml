@@ -47,6 +47,14 @@
             android:text="Actualizar Producto"
             android:layout_marginTop="20dp"/>
 
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
     </LinearLayout>
 
 </ScrollView>
